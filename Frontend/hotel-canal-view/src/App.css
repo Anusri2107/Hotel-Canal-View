@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-face-gr{
+  font-family: "GorditaRegular";
+}
+
+.font-face-gr-bold{
+  font-family: "GorditaBold";
+}
+
+.font-face-gr-italic{
+  font-family: "GorditaRegularItalic";
+}
+
+.font-face-fl{
+  font-family: "FootLight";
+}
+
+.font-face-ta{
+  font-family: "TanAegean";
+}
+
+:root{
+  --color1: #3f422f;
+  --color2: rgb(244, 231, 197);
+  --color3: rgb(123, 121, 124);
+  --color4: rgb(214, 139, 49);
+  --color5: #a08770;
+  --color2op: rgba(244,231,197,0.5);
+  --color4op: rgba(214,139,49,0.5);
+  --color3op: rgba(123,121,124,0.2);
+}
+
+.container {
+  background-image: url(../src/assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: 100% 100%; */
+  height: 100vh;
+}
+
+.room{
+  background-image: url(../src/assets/room.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: 100% 100%; */
+  height: 75vh;
+}
+
+.contact{
+  background-image: url(../src/assets/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: 100% 100%; */
+  height: 75vh;
+}
+
+.about{
+  background-image: url(../src/assets/about.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: 100% 100%; */
+  height: 75vh;
+}
+
+.restaurantandbar{
+  background-image: url(../src/assets/restaurant&bar.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: 100% 100%; */
+  height: 75vh;
+}
+
+.servicesandfacilities{
+  background-image: url(../src/assets/services&facilities.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
+  height: 75vh;
+}
+
+.banquetsandleisurearea{
+  background-image: url(../src/assets/banquets&leisurearea.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
+  height: 75vh;
+}
+
+.policies{
+  background-image: url(../src/assets/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
+  height: 75vh;
+}
+
+@media screen and (min-width:1024px) {
+  .container{
+    background-size: 100% 100%;
+    height: 100vh;
+  }
+
+  .room{
+    background-size: 100% 100%;
+    height: 75vh;
+  }
+
+  .contact{
+    background-size: 100% 100%;
+    height: 75vh;
+  }
+
+  .about{
+    background-size: 100% 100%;
+    height: 75vh;
+  }
+
+  .restaurantandbar{
+    background-size: 100% 100%;
+    height: 75vh;
+  }
+
+  .servicesandfacilities{
+    background-size: 100% 100%;
+    height: 75vh;
+  }
+
+  .banquetsandleisurearea{
+    background-size: 100% 100%;
+    height: 75vh;
+  }
+
+  .policies{
+    background-size: 100% 100%;
+    height: 75vh;
+  }
+}

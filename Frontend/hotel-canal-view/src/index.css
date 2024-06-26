@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: "GorditaRegular";
+    src: local("GorditaRegular"),
+    url("./assets/fonts/Gordita-Font/Gordita-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GorditaBold";
+    src: local("GorditaBold"),
+    url("./assets/fonts/Gordita-Font/Gordita-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GorditaRegularItalic";
+    src: local("GorditaRegularItalic"),
+    url("./assets/fonts/Gordita-Font/Gordita-RegularItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "FootLight";
+    src: local("FootLight"),
+    url("./assets/fonts/Footlight\ Font/FTLTLT.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "TanAegean";
+    src: local("TanAegean")
+    url("./assets/fonts/TAN\ .AEGEAN/TAN - AEGEAN Regular.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

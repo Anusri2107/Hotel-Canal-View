@@ -1,0 +1,56 @@
+{
+  "name": "hotel-canal-view",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@directus/sdk": "^16.1.0",
+    "@react-icons/all-files": "^4.1.0",
+    "@stripe/stripe-js": "^3.5.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "date-fns": "^3.6.0",
+    "dayjs": "^1.11.11",
+    "react": "^18.3.1",
+    "react-date-range": "^2.0.1",
+    "react-datepicker": "^6.9.0",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.23.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.30.2",
+    "react-tailwindcss-datepicker": "^1.6.6",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
