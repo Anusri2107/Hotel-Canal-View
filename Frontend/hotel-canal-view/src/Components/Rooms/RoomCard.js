@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import useIsVisible from "../effects/useIsVisible";
-import room1 from "../assets/Room 1.jpg";
+import useIsVisible from "../../effects/useIsVisible";
+import room1 from "../../assets/Room 1.jpg";
 
 function RoomCard({ item }) {
   const ref1 = useRef();

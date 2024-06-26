@@ -1,6 +1,6 @@
 import React from "react";
-import room3 from "../assets/Room 3.jpg";
-import banquets from "../assets/banquets.jpg";
+import room3 from "../../assets/Room 3.jpg";
+import banquets from "../../assets/banquets.jpg";
 import {
   MdDirectionsBus,
   MdDirectionsRailway,

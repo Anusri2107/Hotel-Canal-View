@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
 import Footer from "../Components/Footer/Footer";
-import AboutUs from '../Components/AboutUs';
 import Title from '../Components/Title';
+import AboutUs from '../Components/About/AboutUs';
+import Navbar from '../Components/Navbar/Navbar';
 
 function About() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
 import Footer from "../Components/Footer/Footer";
-import Navbar from '../Components/Navbar'
-import Contact from '../Components/Contact';
 import Title from '../Components/Title';
+import Contact from '../Components/ContactUs/Contact';
+import Navbar from '../Components/Navbar/Navbar';
 
 function ContactUs() {
   return (

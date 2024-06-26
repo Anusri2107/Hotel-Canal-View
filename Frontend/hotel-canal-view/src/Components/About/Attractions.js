@@ -1,5 +1,5 @@
 import React from "react";
-import attraction from "../assets/attractions.jpg";
+import attraction from "../../assets/attractions.jpg";
 
 function Attractions() {
   return (

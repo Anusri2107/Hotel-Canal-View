@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import useIsVisible from "../effects/useIsVisible";
-import leisure from "../assets/leisure.jpg"
+import useIsVisible from "../../effects/useIsVisible";
+import leisure from "../../assets/leisure.jpg"
 
 function LeisureArea() {
   const ref1 = useRef();

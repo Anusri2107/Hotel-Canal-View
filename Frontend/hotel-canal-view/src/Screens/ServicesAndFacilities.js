@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
 import Footer from "../Components/Footer/Footer";
 import Title from '../Components/Title';
-import Amenities from '../Components/Amenities';
-import Facilities from '../Components/Facilities';
+import Services from '../Components/Services&Facilities/Services'
+import Facilities from '../Components/Services&Facilities/Facilities';
+import Navbar from '../Components/Navbar/Navbar';
 
 function ServicesAndFacilities() {
   return (
@@ -13,7 +13,7 @@ function ServicesAndFacilities() {
             <Title name="Our Services & Facilities" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit enim cupiditate ratione eum veniam deleniti illo saepe voluptatibus ducimus dolor?"/>
         </div>
         <Facilities/>
-        <Amenities/>
+        <Services/>
         <Footer/>
     </div>
   )

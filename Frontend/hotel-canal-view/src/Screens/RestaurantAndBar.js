@@ -1,8 +1,8 @@
 import React from 'react'
 import Footer from "../Components/Footer/Footer";
-import Navbar from '../Components/Navbar'
-import RestaurantBar from '../Components/RestaurantBar';
 import Title from '../Components/Title';
+import RestaurantBar from '../Components/Restaurant&Bar/RestaurantBar';
+import Navbar from '../Components/Navbar/Navbar';
 
 function RestaurantAndBar() {
   return (

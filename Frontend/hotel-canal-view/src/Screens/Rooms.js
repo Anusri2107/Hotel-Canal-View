@@ -1,8 +1,8 @@
 import React from 'react'
 import Footer from '../Components/Footer/Footer'
-import Navbar from '../Components/Navbar'
 import Title from '../Components/Title'
-import Room from '../Components/Room'
+import Room from "../Components/Rooms/Room"
+import Navbar from '../Components/Navbar/Navbar'
 
 function Rooms() {
   return (

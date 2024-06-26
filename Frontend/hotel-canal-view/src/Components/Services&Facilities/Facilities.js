@@ -1,5 +1,5 @@
 import React from "react";
-import facilities from "../assets/services&facilities.jpg";
+import facilities from "../../assets/services&facilities.jpg";
 
 function Facilities() {
   return (

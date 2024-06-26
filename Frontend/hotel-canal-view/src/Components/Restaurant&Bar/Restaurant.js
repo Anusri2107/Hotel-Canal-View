@@ -1,17 +1,17 @@
 import React, { useRef } from "react";
-import useIsVisible from "../effects/useIsVisible";
-import banquet from '../assets/banquets.jpg'
+import restaurant from "../../assets/restaurant&bar.jpg";
+import useIsVisible from "../../effects/useIsVisible";
 
-function Banquet() {
-    const ref1 = useRef();
-    const ref2 = useRef();
-    const isVisible1 = useIsVisible(ref1);
-    const isVisible2 = useIsVisible(ref2);
+function Restaurant() {
+  const ref1 = useRef();
+  const ref2 = useRef();
+  const isVisible1 = useIsVisible(ref1);
+  const isVisible2 = useIsVisible(ref2);
   return (
     <div>
       <div className="flex flex-col  xl:flex-row xl:space-x-20 xl:gap-10 py-5">
         <div className="xl:w-1/2">
-          <h1 className="text-4xl font-face-gr-bold">BANQUET NAME</h1>
+          <h1 className="text-4xl font-face-gr-bold">RESTAURANT NAME</h1>
           <h3 className="text-lg font-face-gr font-semibold uppercase text-[color:var(--color5)]">
             Lorem ipsum dolor sit amet
           </h3>
@@ -37,7 +37,7 @@ function Banquet() {
           <div className="relative h-[300px] w-full xl:h-[400px] xl:w-1/2">
             <img
               ref={ref1}
-              src={banquet}
+              src={restaurant}
               alt=""
               className={`absolute block h-full object-cover duration-1000 transition-all ease-in-out ${
                 isVisible1 ? "opacity-100" : "opacity-0"
@@ -45,7 +45,7 @@ function Banquet() {
             />
             <img
               ref={ref2}
-              src={banquet}
+              src={restaurant}
               alt=""
               className={`absolute block h-full object-cover translate-x-2/3 translate-y-1/4 duration-1000 shadow-lg shadow-[color:var(--color2)] transition-all ease-in-out ${
                 isVisible2
@@ -57,7 +57,7 @@ function Banquet() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Banquet
+export default Restaurant;

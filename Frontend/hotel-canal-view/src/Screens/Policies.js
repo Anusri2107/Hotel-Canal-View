@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
 import Title from '../Components/Title'
-import Policy from '../Components/Policy'
 import Footer from '../Components/Footer/Footer'
+import Navbar from '../Components/Navbar/Navbar'
+import Policy from '../Components/Policy/Policy'
 
 function Policies() {
   return (
