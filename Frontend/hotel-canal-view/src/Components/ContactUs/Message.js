@@ -19,7 +19,7 @@ function Message() {
       message: data.message,
     };
     await axios
-      .post("https://hotel-canal-view.vercel.app/message", messageData)
+      .post("http://localhost:4001/contactus/message", messageData)
       .then((res) => {
         console.log(res.data);
         if (res.data) {

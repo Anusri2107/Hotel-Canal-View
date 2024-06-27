@@ -9,7 +9,7 @@ function Room() {
   useEffect(() => {
     const getRoom = async () => {
       try {
-        const res = await axios.get("https://hotel-canal-view.vercel.app/room");
+        const res = await axios.get("http://localhost:4001/room");
         console.log(res.data);
         setRoom(res.data);
       } catch (error) {
