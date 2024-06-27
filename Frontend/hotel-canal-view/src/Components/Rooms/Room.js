@@ -4,14 +4,12 @@ import axios from "axios";
 
 function Room() {
 
-  const baseURL = "https://hotel-canal-view.vercel.app";
-
   const [room, setRoom] = useState([]);
 
   useEffect(() => {
     const getRoom = async () => {
       try {
-        const res = await axios.get(`${baseURL}/room`);
+        const res = await axios.get("https://hotel-canal-view.vercel.app/room");
         console.log(res.data);
         setRoom(res.data);
       } catch (error) {
