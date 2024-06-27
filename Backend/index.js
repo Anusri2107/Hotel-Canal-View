@@ -10,7 +10,13 @@ import subscribeRoute from "./route/subscribe.route.js";
 
 const app = express();
 
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["https://hotel-canal-view.vercel.app/"],
+    methods: ["POST","GET"],
+    credentials: true
+  }
+));
 app.use(express.json());
 
 dotenv.config();
