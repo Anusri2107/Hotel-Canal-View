@@ -18,7 +18,7 @@ function Updates() {
       email: data.email,
     };
     await axios
-      .post("http://localhost:4001/subscribe", subscribeEmail)
+      .post("https://hotel-canal-view-6.onrender.com/subscribe", subscribeEmail)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
