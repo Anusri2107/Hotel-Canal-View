@@ -19,7 +19,7 @@ function Message() {
       message: data.message,
     };
     await axios
-      .post("https://hotel-canal-view-6.onrender.com/message", messageData)
+      .post("https://hotel-canal-view-6.onrender.com/contactus/message", messageData)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
