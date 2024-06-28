@@ -10,11 +10,11 @@ import Navbar from "../Components/Navbar/Navbar";
 function Home() {
   return (
     <div className="scroll-smooth">
-      <div class="container">
+      <div class="container h-full">
         <Navbar />
         <Banner />
       </div>
-      <div className="my-10">
+      <div className="">
         <Hotel />
         <Services />
         <Sliders/>
