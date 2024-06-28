@@ -6,20 +6,22 @@ import RoomOption from "./RoomOption";
 
 function BookForm() {
   return (
-    <form className="h-[370px] w-full">
-      <div className="flex flex-col h-full w-full items-center">
-        <div className="flex-1">
-          <Dates/>
-        </div>
-        <div className="flex flex-col pb-5">
+    <form className="w-full">
+      <div className="flex flex-col h-full w-full items-center justify-center">
+        <div className="w-[300px]  bg-[color:var(--color2)] mb-5">
           <div className="flex-1">
-            <Adults />
+            <Dates />
           </div>
-          <div className="flex-1">
-            <Children />
-          </div>
-          <div className="flex-1">
-            <RoomOption />
+          <div className="flex flex-col pb-5">
+            <div className="flex-1">
+              <Adults />
+            </div>
+            <div className="flex-1">
+              <Children />
+            </div>
+            <div className="flex-1">
+              <RoomOption />
+            </div>
           </div>
         </div>
         <div>

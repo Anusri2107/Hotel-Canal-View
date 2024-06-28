@@ -4,7 +4,7 @@ function RoomOption() {
   return (
     <div>
       <div>
-      <div className="w-[269px] bg-[color:var(--color2)] flex items-center justify-between gap-6 h-full pr-8">
+      <div className=" bg-[color:var(--color2)] flex items-center justify-between gap-6 h-full pr-8">
         <span className="text-slate-400 px-[44px] py-4">Rooms</span>
         <div className="flex items-center gap-1">
           <button

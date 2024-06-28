@@ -5,14 +5,14 @@ import "../../datepicker.css";
 import { FaRegCalendar } from "react-icons/fa";
 import { addDays } from "date-fns";
 
-function CheckIn() {
+function Dates() {
   const [startDate, setStartDate] = useState();
   const [endDate, setEndDate] = useState(false);
 
   return (
     <div>
-      <div className="relative flex items-center justify-end h-[62px]">
-        <div className="absolute z-10 pr-8">
+      <div className="relative flex items-center left-8 h-[62px]">
+        <div className="absolute z-10 right-20">
           <div>
             <FaRegCalendar className="text-xl text-[color:var(--color4)] " />
           </div>
@@ -25,14 +25,14 @@ function CheckIn() {
           minDate={new Date()}
         />
       </div>
-      <div className="relative flex items-center justify-end h-[62px]">
-        <div className="absolute z-10 pr-8">
+      <div className="relative flex items-center left-8 h-[62px]">
+        <div className="absolute z-10 right-20">
           <div>
             <FaRegCalendar className="text-xl text-[color:var(--color4)] " />
           </div>
         </div>
         <DatePicker
-          className="h-full w-full focus:outline-none focus:border-none focus:ring-0"
+          className="h-full focus:outline-none focus:border-none focus:ring-0"
           selected={endDate}
           placeholderText="Check Out"
           onChange={(date) => setEndDate(date)}
@@ -43,4 +43,4 @@ function CheckIn() {
   );
 }
 
-export default CheckIn;
+export default Dates;

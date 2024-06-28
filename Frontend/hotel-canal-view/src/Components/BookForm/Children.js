@@ -3,7 +3,7 @@ import React from "react";
 function Children() {
   return (
     <div>
-      <div className="w-[269px] bg-[color:var(--color2)] flex items-center justify-between gap-4 h-full pr-8">
+      <div className=" bg-[color:var(--color2)] flex items-center justify-between gap-4 h-full pr-8">
         <span className="text-slate-400 px-[44px] py-4">Children</span>
         <div className="flex items-center gap-1">
           <button

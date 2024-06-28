@@ -2,8 +2,8 @@ import React from "react";
 function Adults() {
   return (
     <div>
-      <div className="w-[269px] bg-[color:var(--color2)] flex items-center justify-between gap-8 h-[62px] pr-8">
-        <span className="text-slate-400 px-[44px] py-4">Adults</span>
+      <div className=" bg-[color:var(--color2)] flex items-center justify-between gap-8 h-[62px] pr-8">
+        <span className="text-slate-400 px-[44px] py-4 text-center">Adults</span>
         <div className="flex items-center gap-1">
           <button
             type="button"
