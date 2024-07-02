@@ -5,7 +5,7 @@ import room3 from "../../assets/Room 3.jpg";
 
 function SliderCard({ room }) {
   return (
-    <div className="bg-[color:var(--color2)] h-full w-full" data-carousel-item>
+    <div className="bg-[color:var(--color2)] h-full w-full transition-all duration-500" data-carousel-item>
       <div className="bg-[color:var(--color1)] h-full group">
         <img
           className="absolute object-cover h-full w-full"
