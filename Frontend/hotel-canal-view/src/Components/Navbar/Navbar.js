@@ -43,43 +43,43 @@ function Navbar() {
           >
             <NavLink
               to="/"
-              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:top-9 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
+              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:-bottom-4 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
             >
               Home
             </NavLink>
             <NavLink
               to="/about"
-              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:top-9 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
+              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:-bottom-4 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
             >
               About
             </NavLink>
             <NavLink
               to="/rooms"
-              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:top-9 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
+              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:-bottom-4 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
             >
               Rooms
             </NavLink>
             <NavLink
               to="/services&facilities"
-              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:top-9 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
+              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:-bottom-4 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
             >
               Services & Facility
             </NavLink>
             <NavLink
               to="/restaurant&bar"
-              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:top-9 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
+              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:-bottom-4 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
             >
               Restaurant & Bar
             </NavLink>
             <NavLink
               to="/banquets&leisurearea"
-              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:top-9 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
+              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:-bottom-4 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
             >
               Banquets & Leisure Area
             </NavLink>
             <NavLink
               to="/contactus"
-              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:top-9 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
+              className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:-bottom-4 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
             >
               Contact Us
             </NavLink>
