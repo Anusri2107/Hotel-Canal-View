@@ -7,7 +7,7 @@ function Hotel() {
   const isVisible1 = useIsVisible(ref1);
 
   return (
-    <div className="flex flex-col gap-5 xl:gap-0 xl:flex-row items-center justify-center xl:justify-around px-5 py-3 mt-10 xl:px-20 xl:py-5">
+    <div className="flex flex-col gap-5 xl:gap-0 xl:flex-row items-center justify-center xl:justify-around px-5 py-3 lg:px-10 mt-10 xl:px-20 xl:py-5">
       <div
         ref={ref1}
         className={`w-full xl:w-1/2 transition-all ease-in duration-1000  ${

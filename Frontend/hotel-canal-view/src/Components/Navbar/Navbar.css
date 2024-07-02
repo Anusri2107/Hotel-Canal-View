@@ -21,7 +21,6 @@
         visibility: visible;
         display: block;
         opacity: 1;
-        color: var(--color3);
         /* background-color: var(--color1); */
         height: 50px;
         font-size: x-large;
@@ -56,6 +55,7 @@
     }
 
     ul li a{
+        padding-top: 10px;
         font-size: 1.5rem;
         text-transform: uppercase;
         height: 30px;

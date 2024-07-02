@@ -6,11 +6,12 @@ import Banner from "../Components/Home/Banner";
 import Sliders from "../Components/Home/Sliders";
 import Testimonials from "../Components/Home/Testimonials";
 import Navbar from "../Components/Navbar/Navbar";
+import ScrollButton from "../Components/ScrollButton";
 
 function Home() {
   return (
-    <div className="scroll-smooth w-full">
-      <div class="container h-full w-full">
+    <div>
+      <div class="home">
         <Navbar />
         <Banner />
       </div>
@@ -19,6 +20,7 @@ function Home() {
         <Services />
         <Sliders/>
         <Testimonials/>
+        <ScrollButton/>
       </div>
       <Footer />
     </div>

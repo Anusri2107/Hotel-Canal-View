@@ -20,7 +20,7 @@ function Room() {
   }, []);
 
   return (
-    <div className="px-5 py-3 xl:px-20 xl:py-5 my-10">
+    <div className="px-5 py-3 lg:px-10 xl:px-20 xl:py-5 my-10 flex flex-wrap items-center justify-evenly">
       {room?.map((item) => (
         <RoomCard key={item} item={item} />
       ))}

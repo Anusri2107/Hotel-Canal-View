@@ -3,8 +3,8 @@ import facilities from "../../assets/services&facilities.jpg";
 
 function Facilities() {
   return (
-    <div className="px-5 py-3 xl:px-20 xl:py-5 my-10">
-      <div className="flex flex-col  xl:flex-row xl:space-x-20 xl:gap-10 py-5">
+    <div className="px-5 py-3 lg:px-10 xl:px-20 xl:py-5 my-10">
+      <div className="flex flex-col xl:flex-row xl:space-x-20 xl:gap-10 py-5">
         <div className="xl:w-1/2">
           <h1 className="text-4xl font-face-gr-bold uppercase">Facilities</h1>
           <h3 className="text-lg font-face-gr font-semibold uppercase text-[color:var(--color5)]">

@@ -12,7 +12,7 @@ function SliderCard({ room }) {
           src={room3}
           alt=""
         />
-        <div className="relative h-full xl:w-1/4 bg-[color:var(--color1)] transition-all duration-1000 opacity-0 -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
+        <div className="relative h-full lg:w-1/3 xl:w-1/4 bg-[color:var(--color1)] transition-all duration-1000 opacity-0 -translate-x-full group-hover:opacity-100 group-hover:translate-x-0">
           <div className="flex flex-col py-10 px-5 h-full justify-end gap-4">
             <h1 className="text-2xl xl:text-5xl text-[color:var(--color2)] font-face-ta">
               {room.name}

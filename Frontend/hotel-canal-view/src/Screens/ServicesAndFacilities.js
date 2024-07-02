@@ -4,6 +4,7 @@ import Title from '../Components/Title';
 import Services from '../Components/Services&Facilities/Services'
 import Facilities from '../Components/Services&Facilities/Facilities';
 import Navbar from '../Components/Navbar/Navbar';
+import ScrollButton from '../Components/ScrollButton';
 
 function ServicesAndFacilities() {
   return (
@@ -14,6 +15,7 @@ function ServicesAndFacilities() {
         </div>
         <Facilities/>
         <Services/>
+        <ScrollButton/>
         <Footer/>
     </div>
   )

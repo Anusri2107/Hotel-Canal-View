@@ -4,7 +4,7 @@ import OtherServices from "./OtherServices.js";
 
 function Amenities() {
   return (
-    <div className="px-5 py-3 xl:px-20 xl:py-5 my-20">
+    <div className="px-5 py-3 lg:px-10 xl:px-20 xl:py-5 my-20">
       <div>
         <h1 className="text-4xl font-face-gr-bold uppercase">Services</h1>
         <div className="p-10">
@@ -12,7 +12,7 @@ function Amenities() {
             <h1 className="text-center font-face-gr-bold font-bold text-3xl">
               Room Services
             </h1>
-            <div className="grid xl:grid-cols-3 gap-5 xl:gap-10 justify-around py-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 justify-around py-10">
               <ServiceCard />
               <ServiceCard />
               <ServiceCard />
@@ -25,7 +25,7 @@ function Amenities() {
             <h1 className="text-center font-face-gr-bold font-bold text-3xl">
               Other Services
             </h1>
-            <div className="flex flex-col xl:flex-row justify-around px-10 xl:px-20 py-10 space-y-2">
+            <div className="flex flex-wrap lg:flex-row justify-around px-10 xl:px-20 py-10 space-y-2">
               <div className="space-y-2">
                 <OtherServices />
                 <OtherServices />

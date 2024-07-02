@@ -44,7 +44,7 @@ function Updates() {
         Get the Latest Updates
       </h1>
       <form onSubmit={handleSubmit(onSubmit)} id="form1">
-        <div className="flex flex-col items-center gap-2 xl:gap-0 xl:flex-row xl:space-x-5">
+        <div className="flex flex-col items-center gap-2 lg:gap-0 lg:flex-row lg:space-x-5">
           <div className="w-full">
             <label htmlFor="email">
               <div className="flex items-center border-2 rounded-md bg-[color:var(--color1)]">
@@ -52,7 +52,7 @@ function Updates() {
                 <input
                   id="email"
                   type="email"
-                  className="border-l-2 h-[40px] w-full p-5 focus:outline-none text-[color:var(--color1)] font-face-gr focus:ring-[color:var(--color1)] focus:border-[color:var(--color1)] "
+                  className="border-l-2 h-[40px] w-full p-5 focus:outline-none text-[color:var(--color1)] font-face-gr focus:ring-[color:var(--color1)] focus:border-[color:var(--color1)]"
                   placeholder="Enter your email"
                   {...register("email", { required: true })}
                 />

@@ -2,7 +2,7 @@ import React from "react";
 
 function Policies() {
   return (
-    <div className="px-5 py-3 xl:px-20 xl:py-5 my-10">
+    <div className="px-5 py-3 lg:px-10 xl:px-20 xl:py-5 my-10">
       <div>
         <h1 className="text-4xl font-face-gr-bold">PRIVACY POLICY</h1>
         <p className="mt-5 font-face-gr text-justify">

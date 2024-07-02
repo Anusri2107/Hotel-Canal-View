@@ -14,7 +14,7 @@ import Attractions from "./Attractions";
 
 function AboutUs() {
   return (
-    <div className="px-5 py-3 xl:px-20 xl:py-5 my-10">
+    <div className="px-5 py-3 lg:px-10 xl:px-20 xl:py-5 my-10">
       <div className="flex flex-col xl:flex-row xl:space-x-20 py-5">
         <div className="xl:w-1/2">
           <h1 className="text-4xl font-face-gr-bold">OUR HOTEL</h1>
@@ -36,12 +36,12 @@ function AboutUs() {
             quaerat officia labore quis nihil.
           </p>
         </div>
-        <div className="mt-10 xl:w-1/2 flex flex-col xl:flex-row gap-5">
-          <div className="relative flex bg-[color:var(--color2op)] h-[400px] xl:w-1/2">
+        <div className="mt-10 xl:w-1/2 flex flex-col lg:flex-row gap-5">
+          <div className="relative flex h-[400px] bg-[color:var(--color2op)] lg:w-1/2">
             <img
               src={room3}
               alt=""
-              className="absolute block h-full object-cover opacity-50"
+              className="absolute block h-full opacity-50 w-full"
             />
             <div className="absolute h-full w-full top-64 left-5">
               <MdOutlineBedroomParent className="text-6xl text-[color:var(--color1)]" />
@@ -50,11 +50,11 @@ function AboutUs() {
               </h3>
             </div>
           </div>
-          <div className="relative flex bg-[color:var(--color2op)] h-[400px] xl:w-1/2">
+          <div className="relative flex bg-[color:var(--color2op)] h-[400px] lg:w-1/2">
             <img
               src={banquets}
               alt=""
-              className="absolute block h-full object-cover opacity-50"
+              className="absolute block h-full object-cover opacity-50 w-full"
             />
             <div className="absolute h-full w-full top-64 left-5">
               <MdOutlineDining className="text-6xl text-[color:var(--color1)]" />
@@ -91,7 +91,7 @@ function AboutUs() {
           Soluta, exercitationem recusandae. Sit facilis id, accusantium neque
           ab recusandae blanditiis doloribus. Natus, animi odio.
         </p>
-        <div className="mt-10 flex flex-wrap flex-col xl:flex-row xl:justify-around gap-12 xl:gap-5 items-center">
+        <div className="mt-10 flex flex-wrap items-center justify-center xl:flex-row xl:justify-around gap-12 xl:gap-5">
           <Attractions />
           <Attractions />
           <Attractions />

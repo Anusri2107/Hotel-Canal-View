@@ -29,7 +29,7 @@ function Navbar() {
   return (
     <div>
       <nav
-        className={`w-full flex items-center justify-around h-24 px-5 py-3 xl:px-10 xl:py-5 text-[color:var(--color1)] ${
+        className={`w-full flex items-center justify-between h-24 px-5 py-3 lg:px-10 xl:px-20 xl:py-5 text-[color:var(--color1)] ${
           sticky
             ? "fixed text-[color:var(--color1)] bg-[color:var(--color2)] shadow-xl transition-all duration-700 z-50 ease-in-out w-full"
             : "text-white"
@@ -43,7 +43,6 @@ function Navbar() {
           >
             <NavLink
               to="/"
-              reloadDocument
               className="relative hover:text-[color:var(--color4)] after:bg-[color:var(--color4)] after:absolute after:h-1 after:w-0 after:top-9 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
             >
               Home
@@ -98,7 +97,7 @@ function Navbar() {
           >
             Book Now
           </button>
-          <button onClick={showNavbar} class="nav-btn nav-btn-open">
+          <button onClick={showNavbar} class={`nav-btn nav-btn-open ${sticky ?"text-[color:var(--color1)]":"text-[color:var(--color5)]"}`}>
             <FaBars />
           </button>
         </div>
