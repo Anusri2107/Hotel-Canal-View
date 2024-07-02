@@ -9,8 +9,8 @@ import Navbar from "../Components/Navbar/Navbar";
 
 function Home() {
   return (
-    <div className="scroll-smooth">
-      <div class="container h-full">
+    <div className="scroll-smooth w-full">
+      <div class="container h-full w-full">
         <Navbar />
         <Banner />
       </div>

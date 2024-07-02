@@ -9,7 +9,9 @@ function Sliders() {
   useEffect(() => {
     const getRoom = async () => {
       try {
-        const res = await axios.get("https://hotel-canal-view-6.onrender.com/room");
+        const res = await axios.get(
+          "https://hotel-canal-view-6.onrender.com/room"
+        );
         console.log(res.data);
         setRoom(res.data);
       } catch (error) {
@@ -30,7 +32,7 @@ function Sliders() {
         >
           <div className="relative h-56 overflow-hidden rounded-lg xl:h-[500px] ">
             {room?.map((item) => (
-              <SliderCard key={item} room={item} />
+              <SliderCard key={item._id} room={item} />
             ))}
           </div>
           <button
