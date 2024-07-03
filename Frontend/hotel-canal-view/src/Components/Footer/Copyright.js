@@ -8,13 +8,13 @@ function Copyright() {
       <div>
         <div className="flex flex-col xl:flex-row items-center justify-between py-2 mt-5">
           <div className="flex flex-wrap items-center justify-center gap-2">
-            <HashLink to="/policies" className="p-2 border-r-2 hover:text-[color:var(--color1)] cursor-pointer">
+            <HashLink to="/policies" className="pr-2 border-r-2 hover:text-[color:var(--color1)] cursor-pointer">
               Privacy Policy
             </HashLink>
-            <HashLink to="/policies#cancellation-policy" className="p-2 border-r-2 hover:text-[color:var(--color1)] cursor-pointer">
+            <HashLink to="/policies#cancellation-policy" className="pr-2 border-r-2 hover:text-[color:var(--color1)] cursor-pointer">
               Cancellation Policy
             </HashLink>
-            <HashLink to="/policies#refund-policy" className="p-2 border-r-2 hover:text-[color:var(--color1)] cursor-pointer">
+            <HashLink to="/policies#refund-policy" className="pr-2 border-r-2 hover:text-[color:var(--color1)] cursor-pointer">
               Refund Policy
             </HashLink>
             <HashLink to="/policies#terms&conditions" className="hover:text-[color:var(--color1)] cursor-pointer">
