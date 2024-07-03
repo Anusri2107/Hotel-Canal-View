@@ -6,7 +6,7 @@ function Copyright() {
   return (
     <div>
       <div>
-        <div className="flex flex-col xl:flex-row items-center justify-between py-2 mt-5">
+        <div className="flex flex-col xl:flex-row items-center justify-between py-2 mt-5 gap-5">
           <div className="flex flex-wrap items-center justify-center gap-2">
             <HashLink to="/policies" className="pr-2 border-r-2 hover:text-[color:var(--color1)] cursor-pointer">
               Privacy Policy
