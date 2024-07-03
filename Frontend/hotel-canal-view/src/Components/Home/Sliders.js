@@ -24,7 +24,7 @@ function Sliders() {
   return (
     <div className="px-5 py-3 lg:px-10 mt-10 xl:px-20 xl:py-5">
       <h1 className="text-4xl font-face-gr-bold uppercase">OUR ROOMS</h1>
-      <div className="p-10">
+      <div className="px-5 py-10">
         <div
           id="controls-carousel"
           className="relative w-full"

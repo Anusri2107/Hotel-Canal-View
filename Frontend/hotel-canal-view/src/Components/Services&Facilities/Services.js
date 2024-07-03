@@ -7,7 +7,7 @@ function Amenities() {
     <div className="px-5 py-3 lg:px-10 xl:px-20 xl:py-5 my-20">
       <div>
         <h1 className="text-4xl font-face-gr-bold uppercase">Services</h1>
-        <div className="p-10">
+        <div className="px-5 py-10">
           <div className="mt-10 p-5 bg-[color:var(--color3op)] shadow-md shadow-[color:var(--color5)]">
             <h1 className="text-center font-face-gr-bold font-bold text-3xl">
               Room Services
