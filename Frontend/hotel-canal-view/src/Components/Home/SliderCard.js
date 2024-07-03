@@ -22,7 +22,7 @@ function SliderCard({ room }) {
                 {room.description}
               </p>
               <Link to="/rooms">
-                <button className="flex text-[color:var(--color2)] items-center justify-center gap-2 bg-[color:var(--color4)] w-1/2 p-2 xl:py-5 focus:ring-2 focus:ring-[color:var(--color4)] focus:bg-[color:var(--color2)] focus:text-[color:var(--color4)] group/button">
+                <button className="flex text-[color:var(--color2)] items-center justify-center gap-2 bg-[color:var(--color4)] w-1/2 px-1 py-2 md:p-2 xl:py-5 focus:ring-2 focus:ring-[color:var(--color4)] focus:bg-[color:var(--color2)] focus:text-[color:var(--color4)] group/button">
                   READ MORE
                   <FiArrowRight className="text-lg transition-all duration-200 group-hover/button:translate-x-1" />
                 </button>
